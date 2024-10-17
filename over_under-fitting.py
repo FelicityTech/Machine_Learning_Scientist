@@ -1,5 +1,5 @@
 # Create neighbors
-neighbors = np.arange(1, 12)
+neighbors = np.arange(1, 13)
 train_accuracies = {}
 test_accuracies = {}
 
