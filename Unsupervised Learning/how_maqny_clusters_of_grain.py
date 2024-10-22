@@ -3,7 +3,7 @@ inertias = []
 
 for k in ks:
     # Create a KMeans instance with k clusters: model
-    model = KMeans(k)
+    model = KMeans(n_clusters=k)
     
     # Fit model to samples
     model.fit(samples)
